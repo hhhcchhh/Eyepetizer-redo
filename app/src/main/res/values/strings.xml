@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Eyepetizer-redo</string>
+    <string name="request_permission_picture_processing">需要存储权限来处理您的图片信息</string>
+    <string name="request_permission_access_phone_info">开眼视频推荐和观看记录等功能，需要访问手机识别码等信息</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="settings">设置</string>
 </resources>
