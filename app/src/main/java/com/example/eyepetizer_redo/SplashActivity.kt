@@ -4,6 +4,7 @@ import android.Manifest
 import android.os.Bundle
 import android.os.PersistableBundle
 import com.example.eyepetizer_redo.databinding.ActivitySplashBinding
+import com.permissionx.guolindev.PermissionX
 
 class SplashActivity : BaseActivity(){
 
@@ -26,6 +27,9 @@ class SplashActivity : BaseActivity(){
                 scope.showForwardToSettingsDialog(deniedList, message, GlobalUtil.getString(R.string.settings), GlobalUtil.getString(R.string.cancel))
             }
             .request { allGranted, grantedList, deniedList ->
+                //不管有没有设置权限都会走这里
+                //如果需要的话可以使用if(allGranted){}如果获得了全部权限做...
+                //grantedList通过的权限列表、deniedList拒绝的权限列表
                 requestReadPhoneStatePermission()
             }
     }
