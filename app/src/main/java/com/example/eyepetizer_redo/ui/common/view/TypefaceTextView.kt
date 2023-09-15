@@ -5,7 +5,7 @@ import android.graphics.Typeface
 import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatTextView
 import com.example.eyepetizer_redo.R
-import com.example.eyepetizer_redo.ui.common.util.TypeFaceUtil
+import com.example.eyepetizer_redo.util.TypeFaceUtil
 
 class TypefaceTextView : AppCompatTextView {
     constructor(context: Context) : super(context)

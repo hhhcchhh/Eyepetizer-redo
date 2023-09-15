@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.eyepetizer_redo.ui.common.util
+package com.example.eyepetizer_redo.util
 
 import android.graphics.Typeface
 import com.example.eyepetizer_redo.EyepetizerApplication
